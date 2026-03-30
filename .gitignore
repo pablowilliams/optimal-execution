@@ -1,0 +1,9 @@
+backend/data/raw/
+backend/rl/models/
+backend/calibration/params.json
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+.DS_Store

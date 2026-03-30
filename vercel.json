@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "rewrites": [{"source": "/(.*)", "destination": "/index.html"}],
+  "env": {"VITE_API_URL": "@backend_url", "VITE_WS_URL": "@backend_ws_url"}
+}
